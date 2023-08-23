@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    
+
+  }
+  .parent {
+    margin: 0px auto;
+    width: 100%;
+    height: 1500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    
+    gap: 10px 10px;
+    grid-template-rows: 32% 17% 17% 17% 17% ;
+  }
+  .parent div {
+    background-color: aliceblue;
+    color: white;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: yellow;
+}
+body {
+    padding: 20PX 50pX;
+    width: 100%;
+
+
+}
+  
+
+
+
+  .ch1 {
+    grid-column: span 6; 
+    background-image: url("SOUF.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -383px;
+    
+    
+}
+    .CH2 {
+    grid-column: span 2;
+    background-image: url("pexels-photo-2396044.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
+    .CH3 {
+        grid-column: span   4;
+        background-image: url("pexels-photo-8137365.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -82px;
+    }
+    .CH4 {
+        grid-column: span 4;
+        background-image: url(pexels-photo-7446503.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .CH5 {
+        grid-column: span 2;
+        grid-row: span 2;
+        background-image: url(pexels-photo-3892890.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .CH6 {
+        grid-column: span 2;
+        background-image: url(pexels-photo-14453703.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .CH7
+    {
+        grid-column: span 2;
+        background-image: url(pexels-photo-2948295.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .CH8 {  
+        grid-column: span 3;
+        background-image: url(pexels-photo-1191146.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1px -64px;
+    }
+    .CH9 {
+        grid-column: span 3;
+        background-image: url(54235458353eb7e2da8a8ae604e7ec98.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+     
+
+    
+    body { 
+
+     margin: auto;
+
+    }
